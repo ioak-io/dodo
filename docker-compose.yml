@@ -12,6 +12,7 @@ services:
       NODE_ENV: production
       MONGODB_URI: mongodb://mongo.docker:27017
       CHATGPT_API_KEY: TOBEREEPLACED
+      CLAUDE_API_KEY: TOBEREEPLACED
       PORT: 8115
     ports:
       - 8115:8115

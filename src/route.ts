@@ -6,6 +6,7 @@ router.get("/", (_: any, res: any) => {
   res.end();
 });
 
+require("./modules/claude/route")(router);
 require("./modules/chatgpt/route")(router);
 
 module.exports = router;

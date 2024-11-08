@@ -18,7 +18,6 @@ export const processGemini = async (
   if (authParts.length === 2) {
     authorization = `${authParts[1]}`;
   }
-  console.log('auth is '+authorization);
   const params ={
     key:authorization,
   }
